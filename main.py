@@ -1,6 +1,8 @@
-example = ('Оториноларингология')
-print(example[0])
-print(example[-1])
-print(example[9:])
-print(example[::-1])
-print(example[0::2])
+a = 12
+b = 1.5
+c = (b / a)
+name ='Курс: Python,'
+meaning ='всего задач:'
+second =',затрачено часов:'
+time =',среднее время выполнения'
+print(name,meaning,a,second,b,time,c,'часов')
